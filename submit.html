@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="deskripsi" content="Selamat datang di Prakikum Farmakologi SF ITB">
+  <meta name="katakunci" content="hewan,bedah,anatomi">
+  <script src="https://kit.fontawesome.com/3ee7e0a777.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="css/style.css"> 
+  <title>Farmakologi | Kehadiran</title>
+</head>
+<body>
+  <header>
+    <nav id="navbar">
+      <div class="container">
+        <h1 class="logo"><a href="index.html">ITB</a></h1>
+          <ul>
+            <li><a href="index.html">Beranda</a></li>
+            <li><a class="current"  href="submit.html">Praktikum</a></li>
+            <li><a href="about.html">Tentang</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <section id="form" class="py-3">
+    <div class="container">
+      <h1 class="l-heading"><span class="text-primary"> Form </span>Kehadiran Praktikum</h1>
+      <p>Mohon isi form kehadiran untuk lanjut ke Praktikum Virtual</p>
+      <form action="process.php">
+        <div class="form-group">
+          <label for="nama">Nama Lengkap</label>
+          <input type="text" name="nama" id="nama">
+        </div>
+        <div class="form-group">
+          <label for="number">NIM</label>
+          <input type="number" name="number" id="number">
+        </div>
+        <div>
+          <label for="mod">Modul Praktikum</label><br>
+          <select name="mod" id="mod">
+            <option value="mod1">Modul 1 Penanganan Hewan</option>
+            <option value="mod1">Modul 5 Sistem Peliput dan Pengaturan Suhu Tubuh </option>
+            <option value="mod1">Modul 8 Saluran Pencernaan</option>
+            <option value="mod1">Modul 9 Sistem Respirasi dan Ekskresi</option>
+          </select>
+      </form>
+    </div>
+    <br></br>
+
+    <a class="tombol" href="http://asblr.com/y3PUh">Mulai</a>
+  </section>
+
+  <section id="kontak" class="bg-dark">
+    <div class="box bg-light">
+      <a class="fas fa-scroll fa-3x" href="about.html"></a>
+      <h3>Daftar Modul</h3>
+    </div>
+    <div class="box bg-primary">
+      <a class="fas fa-vials fa-3x" href="submit.html"></a>
+      <h3>Praktikum</h3>
+    </div>
+    <div class="box bg-light">
+      <i class="fas fa-user-friends fa-3x"></i>
+      <h3>Tim</h3>
+    </div>
+  </section>
+  <footer id="bawah-utama">
+    <p>Sekolah Farmasi ITB BT &copy; 2021 All Right Reserved</p>
+  </footer>
+</body>
+</html>
