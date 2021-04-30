@@ -28,7 +28,7 @@
     <div class="container">
       <h1 class="l-heading"><span class="text-primary"> Form </span>Kehadiran Praktikum</h1>
       <p>Mohon isi form kehadiran untuk lanjut ke Praktikum Virtual</p>
-      <form action="process.php">
+      <form action="form_script.php" method="POST">
         <div class="form-group">
           <label for="nama">Nama Lengkap</label>
           <input type="text" name="nama" id="nama">
@@ -36,6 +36,10 @@
         <div class="form-group">
           <label for="number">NIM</label>
           <input type="number" name="number" id="number">
+        </div>
+        <div class="form-group">
+          <label for="email">Email (nim@mahasiswa.itb.ac.id</label>
+          <input type="email" name="email" id="email">
         </div>
         <div>
           <label for="mod">Modul Praktikum</label><br>
@@ -45,11 +49,16 @@
             <option value="mod1">Modul 8 Saluran Pencernaan</option>
             <option value="mod1">Modul 9 Sistem Respirasi dan Ekskresi</option>
           </select>
+
+          <br></br>
+          <h2><input type="submit" value="submit"/></h2>
       </form>
     </div>
     <br></br>
 
-    <a class="tombol" href="http://asblr.com/y3PUh">Mulai</a>
+    
+    <a class="tombol1" href="http://asblr.com/y3PUh">Mulai</a>
+    
   </section>
 
   <section id="kontak" class="bg-dark">

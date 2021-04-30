@@ -42,14 +42,31 @@ p {
 }
 
 .tombol {
-  display: inline-block;
+
   font-size: 18px;
   color: whitesmoke;
   background: #333;
   padding: 13px 20px;
   border: none;
   cursor: pointer;
+  margin: 0;
 }
+
+.tombol1 {
+font-size: 18px;
+color: whitesmoke;
+background: #333;
+padding: 13px 20px;
+border: none;
+cursor: pointer;
+margin: 0 50%;
+}
+
+#form > a {
+  width: 200px;
+  height: 100px;
+}
+
 
 .tombol:hover {
   background: #242a70;
@@ -282,4 +299,8 @@ p {
   outline: none;
   border-color: #242a70;
   
+}
+
+#form h2{
+  width: 100px;
 }
